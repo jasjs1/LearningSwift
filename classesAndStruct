@@ -1,0 +1,28 @@
+//
+//  classesAndStructs.swift
+//  Basics of Swift Programming
+//
+//  Created by Jayce Sagvold on 11/1/22.
+//
+
+import Foundation
+
+// Classes and Structs
+
+
+class Car {
+    
+    let make: String
+    let color: String
+    
+    init(make: String, color: String) {
+        self.make = make
+        self.color = color
+    }
+}
+
+var bmw: Car = Car(color: "blue", make: "bmw")
+var car2 = bmw
+
+// car2 -> bmw
+// car2 | bmw
