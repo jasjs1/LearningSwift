@@ -1,0 +1,6 @@
+var name:String = "Joe"
+var lastName:String = "lastName"
+var age:Int = 20
+
+let firstName:String = "Josh"
+let lastNmae:String = "lastName"
